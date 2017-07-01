@@ -6,7 +6,7 @@ class Usuario {
     private $senha;
 
     public function getEmail() {
-        return $this->nome;
+        return $this->email;
     }
 
     public function setEmail($email) {
